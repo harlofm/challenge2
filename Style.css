@@ -1,0 +1,271 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dbdbdb;
+}
+
+header {
+    padding: 15px 25px;
+    background-color: #07464d;
+    opacity: 80%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 26px;
+    color: #dbdbdb;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    color: #dbdbdb;
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+    list-style-type: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    margin: 0 15px;
+}
+
+ 
+    }
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.hero {
+    background-image: url("https://images.wallpapersden.com/image/download/abstract-art-2020_a21raGuUmZqaraWkpJRraWWtZmZoaw.jpg");
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 70%;
+}
+
+
+
+
+/*HERO STYLE ENDS*/
+
+
+.main {
+    background-color: #07464d;
+    display: flex;
+    flex-flow: column;
+    padding-top: 5px;
+    justify-content: center;
+
+
+}
+
+.title2 {
+    font-size: 40px;
+    text-decoration: underline;
+    float: left;
+    flex-grow: 1;
+    width: 25%;
+    border-right: white;
+    border-width: 5px;
+    border-right-style: solid;
+    flex-direction: column;
+
+}
+
+p {
+    display: flex;
+    float: right;
+    margin-left: 33%;
+    width: 75%;
+    padding-right: 10%;
+    
+
+
+}
+
+.container {
+
+    background-color: red;
+    display: flex | inline | grid;
+    margin-left: 33%;
+    align-items: stretch | flex-start | flex-end;
+    padding: 1%;
+    flex: wrap;
+}
+
+.imagesw {
+    background-color: brown;
+
+}
+
+.img1 {
+   display: flex;
+   margin-bottom: 25px;
+
+
+}
+
+.img2 {
+    flex-flow: column;
+    flex-grow: 2;
+
+
+}
+
+.img3 {
+    flex-shrink: 1;
+
+ 
+}
+
+
+
+
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+
+}
+
+.intro {
+    text-align: center;
+}
+
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%; 
+    font-size: 20px;
+    margin: auto;
+}
+
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+
+
+.steps {
+    text-align: center;
+    background: #fce138;  
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps span {
+    font-size: 38px;
+}
+
+.trainers {
+    text-align: center;
+
+}
+
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+}
+
+.trainer img {
+    width: 35%;
+    float: left;
+}
+
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right; 
+}
+
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.trainer-bio p {
+    font-size: 17px; 
+    line-height: 1.3;
+}
