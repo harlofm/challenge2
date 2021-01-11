@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #dbdbdb;
+    text-decoration: none;
 }
 
 header {
@@ -97,7 +98,6 @@ p {
 
 .container {
 
-    background-color: red;
     display: flex | inline | grid;
     margin-left: 33%;
     align-items: stretch | flex-start | flex-end;
@@ -131,141 +131,22 @@ p {
 }
 
 
+.p3 {
+    display: flex;
+    flex: space-between;
+    word-spacing: 30px;
+    
+}
+
+
+
 
 
 
 footer {
-    background: #fce138;
+    background: #07464d;
     width: 100%;
     padding: 40px 35px;
+    text-emphasis: underline;
 
-}
-
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
-
-}
-
-.intro {
-    text-align: center;
-}
-
-
-.intro p {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%; 
-    font-size: 20px;
-    margin: auto;
-}
-
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    display: inline-block;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
-
-
-.steps {
-    text-align: center;
-    background: #fce138;  
-}
-
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
-
-.steps div {
-    margin-bottom: 80px;
-}
-
-.steps h3 {
-    color: #024e76;
-    font-size: 46px;
-    margin-top: 10px;
-}
-
-.steps p {
-    color: #39a6b2;
-    font-size: 23px;
-}
-
-.steps span {
-    font-size: 38px;
-}
-
-.trainers {
-    text-align: center;
-
-}
-
-.trainer {
-    width: 900px;
-    margin: 0 auto 30px auto;
-    background: #024e76;
-    color: #fce138;
-    overflow: auto;
-}
-
-.trainer img {
-    width: 35%;
-    float: left;
-}
-
-.trainer-bio {
-    padding: 35px;
-    float: left;
-    width: 65%;
-
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right; 
-}
-
-.trainer-bio h3 {
-    font-size: 32px;
-    margin-bottom: 8px;
-}
-
-.trainer-bio h4 {
-    font-weight: lighter;
-    font-size: 26px;
-    margin-bottom: 25px;
-}
-
-.trainer-bio p {
-    font-size: 17px; 
-    line-height: 1.3;
 }
